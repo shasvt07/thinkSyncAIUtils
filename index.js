@@ -27,7 +27,7 @@ const PORT = process.env.PORT || 8081;
 
 server.listen(PORT, () => {
   cors:true
-  console.log("connnected");
+  console.log("connnected to the port");
   })
 app.use((err , req, res, next) => {
     const status = err.status || 500;
